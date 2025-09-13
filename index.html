@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Análise de Desempenho e Engajamento no Esporte</title>
+    <link rel="stylesheet" href="./src/style.css">
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <p>Sprint 3 – Matemática</p>
+            <h1>Análise de Desempenho e Engajamento no Esporte</h1>
+        </header>
+
+        <main>
+            <section id="introducao">
+                <h2>Introdução</h2>
+                <p>Hoje em dia, os números mandam muito no esporte. A matemática é a chave para entender tanto o que acontece dentro de campo quanto fora dele, como o impacto nas redes sociais.</p>
+                <p>Modelos matemáticos, como o crescimento exponencial, a função logística e até o cálculo de derivadas, ajudam a explicar desde a velocidade de um chute até como um post viraliza. Esses dois lados – o desempenho físico e o engajamento digital – estão totalmente ligados.</p>
+                <p>Um gol no último minuto, que pode ser medido em termos de velocidade instantânea pela derivada, pode gerar uma enxurrada de curtidas e seguidores, seguindo uma curva de crescimento acelerado. Usando essas ferramentas, atletas, treinadores e até gestores conseguem tomar decisões melhores, ajustar estratégias e ganhar vantagem no esporte moderno.</p>
+            </section>
+
+            <section id="crescimento-exponencial">
+                <h2>1. Crescimento de Engajamento: O Modelo Exponencial</h2>
+                <p>Funções exponenciais são usadas quando algo cresce de forma rápida e proporcional ao que já existe, como no começo do aumento de seguidores.</p>
+                <div class="formula-box">
+                    <p>f(t) = S(0) · (1 + r)ᵗ</p>
+                </div>
+                <ul>
+                    <li><strong>S(0):</strong> número inicial de seguidores</li>
+                    <li><strong>r:</strong> taxa de crescimento</li>
+                    <li><strong>t:</strong> tempo</li>
+                </ul>
+                <div class="example">
+                    <p><strong>Exemplo:</strong> uma jogadora começa com 5.000 seguidores e cresce 5% ao mês.</p>
+                    <ul>
+                        <li>Em 1 ano (t = 12): 8.979 seguidores</li>
+                        <li>Em 3 anos (t = 36): 28.959 seguidores</li>
+                    </ul>
+                </div>
+                <p>Esse tipo de modelo mostra bem o “boom” inicial, mas não considera limites, como saturação de mercado. Ou seja, é bom para curto prazo.</p>
+
+                <img src="./src/assets/Exponencial.png" alt="Gráfico de função exponencial">
+
+                <h3>1.1 Visualizando o Crescimento</h3>
+                <p>O gráfico de uma função exponencial parece um “J”: no começo cresce devagar, mas logo dispara. É exatamente o que acontece com uma jogadora que pode saltar de 5.000 para quase 9.000 seguidores em 1 ano e chegar perto de 29 mil em 3 anos. Isso mostra bem como o crescimento composto pode se acelerar e até virar viral.</p>
+            </section>
+
+            <section id="modelo-logistico">
+                <h2>2. Quando o Crescimento Tem Limite: Modelo Logístico</h2>
+                <p>Na vida real, nada cresce para sempre. Para casos assim, usamos a função logística, que leva em conta a saturação – o ponto máximo que pode ser atingido. Essa curva tem formato de “S”: começa devagar, acelera no meio e depois desacelera até chegar ao limite.</p>
+                <div class="example">
+                    <p><strong>Exemplo:</strong> um post pode ter no máximo 25.000 curtidas. O modelo mostra que:</p>
+                    <ul>
+                        <li>Após 6 horas: cerca de 493 curtidas</li>
+                        <li>Após 24 horas: cerca de 24.847 curtidas (quase o máximo possível)</li>
+                    </ul>
+                </div>
+                <p>Esse tipo de modelo é ótimo para entender como um post viraliza rápido no início, mas depois estabiliza quando já atingiu quase todo o público.</p>]
+                <img src="./src/assets/Limite.png" alt="Função de Limite">
+            </section>
+
+            <section id="derivadas">
+                <h2>3. Derivadas na Prática: Velocidade e Aceleração</h2>
+                <p>Quando falamos de desempenho físico, a matemática entra em cena de outro jeito: com as derivadas. A velocidade média dá uma noção geral, mas a derivada mostra a velocidade instantânea – fundamental para analisar momentos críticos de uma partida.</p>
+                <div class="example">
+                    <p><strong>Exemplo:</strong> posição da jogadora dada por s(t) = 3t² + 2t.</p>
+                    <ul>
+                        <li>Velocidade é a derivada: v(t) = 6t + 2</li>
+                        <li>No instante inicial (t = 0): 2 m/s</li>
+                        <li>Após 1 segundo (t = 1): 8 m/s (28,8 km/h)</li>
+                        <li>A aceleração (segunda derivada) é 6 m/s², mostrando explosão e potência.</li>
+                    </ul>
+                </div>
+                <p>É isso que os sistemas modernos de rastreamento fazem: analisam velocidade, aceleração, resistência… e ajudam técnicos a ajustar treinos, prevenir lesões e montar estratégias.</p>
+                <img src="./src/assets/Derivada.png" alt="Função de Derivada">
+            </section>
+        </main>
+
+        <footer>
+            <section id="conclusao">
+                <h2>Conclusão</h2>
+                <p>A matemática ajuda a entender tanto o lado digital quanto o físico do esporte:</p>
+                <ul>
+                    <li><strong>Exponencial →</strong> mostra o boom inicial de crescimento (como seguidores).</li>
+                    <li><strong>Logística →</strong> mostra o ciclo completo até a saturação (como curtidas num post).</li>
+                    <li><strong>Derivadas →</strong> explicam em detalhe o desempenho do atleta (velocidade e aceleração).</li>
+                </ul>
+                <p>No fim, tudo se conecta: um lance incrível pode gerar um pico de engajamento, e a matemática é a ferramenta que revela esses padrões. Dominar isso é ter uma vantagem real no esporte de alto nível.</p>
+            </section>
+        </footer>
+
+    </div>
+
+</body>
+</html>
